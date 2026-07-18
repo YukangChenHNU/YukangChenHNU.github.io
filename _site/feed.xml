@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2026-07-19T00:29:06+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yukang Chen</title><subtitle>Yukang Chen 的个人主页、项目展示与学习笔记。</subtitle><entry><title type="html">为什么要从零实现机器学习算法？</title><link href="http://localhost:4000/blog/2026/07/18/why-build-from-scratch/" rel="alternate" type="text/html" title="为什么要从零实现机器学习算法？" /><published>2026-07-18T00:00:00+08:00</published><updated>2026-07-18T00:00:00+08:00</updated><id>http://localhost:4000/blog/2026/07/18/why-build-from-scratch</id><content type="html" xml:base="http://localhost:4000/blog/2026/07/18/why-build-from-scratch/"><![CDATA[<p>成熟的机器学习框架让训练模型变得非常方便。我们可以在几行代码里完成数据拟合、预测与评估。但当模型没有按预期工作时，仅仅会调用接口通常还不够。</p>
+
+<h2 id="从会用走向理解">从“会用”走向“理解”</h2>
+
+<p>从零实现算法，会迫使我们回答一些容易被框架隐藏的问题：</p>
+
+<ul>
+  <li>数据应该使用什么形状表达？</li>
+  <li>损失函数为什么这样定义？</li>
+  <li>梯度是如何得到的？</li>
+  <li>参数更新为什么可能发散？</li>
+  <li>如何判断实现结果是正确的？</li>
+</ul>
+
+<p>这些问题把数学公式、程序结构和实验现象连接在一起。实现过程中遇到的维度错误、数值溢出或收敛异常，往往比顺利跑通一个库函数更有学习价值。</p>
+
+<h2 id="项目的原则">项目的原则</h2>
+
+<p>我的 <a href="https://github.com/YukangChenHNU/Machine-Learning-from-Scratch">Machine Learning from Scratch</a> 项目会坚持三个原则：</p>
+
+<ol>
+  <li><strong>先解释，再实现。</strong> 每个算法都从核心思想与假设出发。</li>
+  <li><strong>保持代码透明。</strong> 尽量减少不必要的抽象，让计算过程容易跟踪。</li>
+  <li><strong>用实验验证。</strong> 通过小型数据集和可解释指标检查实现是否符合预期。</li>
+</ol>
+
+<p>从零实现并不是为了替代成熟框架，而是为了在使用它们时做出更准确的判断。</p>]]></content><author><name></name></author><category term="Machine Learning" /><summary type="html"><![CDATA[调用一个模型只需要几行代码，而亲手实现它，能让我们真正看见数据、目标函数与优化过程如何连接。]]></summary></entry></feed>
