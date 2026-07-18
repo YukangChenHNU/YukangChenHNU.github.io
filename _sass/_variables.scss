@@ -1,0 +1,21 @@
+@use "sass:color";
+
+$base-url: "" !default;
+
+$base-font-family: Charter, Georgia, "Noto Serif SC", "Songti SC", serif;
+$base-font-size: 14px;
+$small-font-size: $base-font-size * 0.875;
+$base-line-height: 1.7;
+
+$spacing-unit: 30px;
+
+$color-text: #1f2923;
+$color-background: #fbfcf9;
+$color-brand: #557b63;
+
+$color-grey: #7b857e;
+$color-grey-light: color.adjust($color-grey, $lightness: 40%);
+$color-grey-dark: color.adjust($color-grey, $lightness: -25%);
+
+$on-mobile: 500px;
+$on-laptop: 800px;

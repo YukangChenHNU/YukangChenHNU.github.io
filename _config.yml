@@ -1,17 +1,46 @@
 title: Yukang Chen
-description: NONE
-url: "https://yukangchenhnu.github.io"
+description: Yukang Chen 的个人主页、项目展示与学习笔记。
 baseurl: ""
+url: "https://yukangchenhnu.github.io"
+og_image: /assets/img/profile-pic.png
 lang: zh-CN
 timezone: Asia/Shanghai
-author:
-  name: Yukang Chen
-  github: YukangChenHNU
 permalink: /blog/:year/:month/:day/:title/
+
+header:
+  pages:
+    - name: Home
+      slug: /
+    - name: Projects
+      slug: /projects/
+    - name: Blog
+      slug: /blog/
+
+footer:
+  show_powered_by: true
+  contact: []
+  follow:
+    - type: github
+      name: GitHub
+      link: https://github.com/YukangChenHNU
+    - type: rss
+      name: RSS
+      link: /feed.xml
+
 markdown: kramdown
 kramdown:
   input: GFM
+sass:
+  style: compressed
+plugins:
+  - jekyll-feed
+
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
   - README.md
   - Gemfile
   - Gemfile.lock
+  - vendor/
+
+version: 2

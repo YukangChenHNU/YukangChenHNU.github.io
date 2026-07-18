@@ -1,0 +1,31 @@
+.work-item {
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 3em;
+}
+
+.work-bubble {
+  float: left;
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.work-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid #dbe3dc;
+  border-radius: 50%;
+  color: #557b63;
+  background: #f0f4ef;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: .06em;
+}
+
+.work-text a {
+  text-decoration: none;
+}
