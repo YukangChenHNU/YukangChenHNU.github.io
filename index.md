@@ -14,5 +14,5 @@ profile_picture:
 </p>
 
 <p>
-  你可以在 <a href="{{ '/projects/' | relative_url }}">Projects</a> 查看我的项目，或前往 <a href="{{ '/blog/' | relative_url }}">Blog</a> 阅读学习笔记。
+  你可以在 <a href="{{ '/projects/' | relative_url }}">Projects</a> 查看我的项目，或前往 <a href="{{ '/blog/' | relative_url }}">Blog</a> 阅读我的学习笔记或者是个人心得。
 </p>
