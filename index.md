@@ -1,14 +1,13 @@
 ---
 layout: default
 title:
-description: Yukang Chen 的个人主页，分享机器学习项目、工程实践与学习笔记。
+description: Yukang Chen 的个人主页
 ---
 
 <section class="hero shell">
   <div class="hero-copy">
-    <p class="eyebrow">HELLO, I’M</p>
-    <h1>Yukang Chen<br><span>陈宇康</span></h1>
-    <p class="hero-lead">专注于机器学习与软件工程。喜欢从原理出发理解技术，也热衷于把想法做成清晰、可靠的项目。</p>
+    <h1>Yukang Chen<br><span>陈裕康</span></h1>
+    <p class="hero-lead">第一次建立个人主页</p>
     <div class="hero-actions">
       <a class="button primary" href="{{ '/projects/' | relative_url }}">浏览项目</a>
       <a class="button secondary" href="{{ '/blog/' | relative_url }}">阅读博客</a>
