@@ -6,7 +6,7 @@ profile_picture:
 ---
 
 <p>
-  你好，我是Yukang Chen。这是我第一次建立个人主页。我喜欢。
+  你好，我是Yukang Chen。
 </p>
 
 <p>
