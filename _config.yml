@@ -9,11 +9,11 @@ permalink: /blog/:year/:month/:day/:title/
 
 header:
   pages:
-    - name: Home
+    - name: 主页
       slug: /
-    - name: Projects
+    - name: 项目
       slug: /projects/
-    - name: Blog
+    - name: 博客
       slug: /blog/
 
 footer:
